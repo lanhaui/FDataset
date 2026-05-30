@@ -17,8 +17,7 @@ The dataset was originally introduced in the HNRD framework by Wang et al. and h
 
 ## Files
 
-### drug_sim.csv
-
+### DrugSim.csv
 Drug structural similarity matrix.
 
 Shape:
@@ -31,7 +30,7 @@ Each row and column corresponds to a drug.
 
 ---
 
-### disease_sim.csv
+### DiseaseSim.csv
 
 Disease semantic similarity matrix.
 
@@ -45,7 +44,7 @@ Each row and column corresponds to a disease.
 
 ---
 
-### assoc.csv
+### DiDrA.csv
 
 Known drug–disease association matrix.
 
@@ -61,18 +60,6 @@ Values:
 - 0 = unknown association
 
 Rows correspond to drugs and columns correspond to diseases.
-
----
-
-### drug.txt
-
-List of drug names or DrugBank IDs corresponding to rows of the matrices.
-
----
-
-### disease.txt
-
-List of disease names or OMIM IDs corresponding to columns of the matrices.
 
 ## Data Sources
 
