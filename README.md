@@ -13,7 +13,7 @@ Fdataset is a benchmark dataset widely used for Drug–Disease Association (DDA)
 | Disease Similarity Matrix | 313 × 313 |
 | Association Matrix | 593 × 313 |
 
-The dataset was originally introduced in the PREDICT framework by Gottlieb et al. and has been adopted by numerous DDA prediction studies.
+The dataset was originally introduced in the HNRD framework by Wang et al. and has been adopted by numerous DDA prediction studies.
 
 ## Files
 
@@ -110,14 +110,14 @@ This dataset is frequently used for:
 If you use this dataset, please cite the original works:
 
 ```bibtex
-@article{gottlieb2011predict,
-  title={PREDICT: a method for inferring novel drug indications with application to personalized medicine},
-  author={Gottlieb, Assaf and Stein, Guy and Ruppin, Eytan and Sharan, Roded},
-  journal={Molecular Systems Biology},
+@article{Wang2019DrugDiseaseAP,
+  title={Drug-Disease Association Prediction Based on Neighborhood Information Aggregation in Neural Networks},
+  author={Yingdong Wang and Gaoshan Deng and Nianyin Zeng and Xiao Song and Yuanying Zhuang},
+  journal={IEEE Access},
+  year={2019},
   volume={7},
-  number={1},
-  pages={496},
-  year={2011}
+  pages={50581-50587},
+  url={https://api.semanticscholar.org/CorpusID:133606089}
 }
 ```
 
